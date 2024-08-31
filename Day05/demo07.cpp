@@ -34,7 +34,7 @@ public:
     }
 };
 
-class D : B
+class D : B, C
 {
     int num4;
 
@@ -49,7 +49,7 @@ int main()
 {
     // A a; // A::ctor
     // B b; // A::ctor, B::ctor
-    //  C c; // A::ctor, C::ctor
+    // C c; // A::ctor, C::ctor
     D d;
     return 0;
 }
